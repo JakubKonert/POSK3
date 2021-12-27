@@ -1,0 +1,13 @@
+C:\Pliki\C#\POSK3\bin\Debug\POSK3.exe.config
+C:\Pliki\C#\POSK3\bin\Debug\POSK3.exe
+C:\Pliki\C#\POSK3\bin\Debug\POSK3.pdb
+C:\Pliki\C#\POSK3\obj\Debug\POSK3.csproj.AssemblyReference.cache
+C:\Pliki\C#\POSK3\obj\Debug\POSK3.Ekrany.CzyZywyUzytkownikForm.resources
+C:\Pliki\C#\POSK3\obj\Debug\POSK3.Ekrany.LiniaProdukcyjnaForm.resources
+C:\Pliki\C#\POSK3\obj\Debug\POSK3.Ekrany.LogowanieForm.resources
+C:\Pliki\C#\POSK3\obj\Debug\POSK3.Ekrany.PorazkaForm.resources
+C:\Pliki\C#\POSK3\obj\Debug\POSK3.Properties.Resources.resources
+C:\Pliki\C#\POSK3\obj\Debug\POSK3.csproj.GenerateResource.cache
+C:\Pliki\C#\POSK3\obj\Debug\POSK3.csproj.CoreCompileInputs.cache
+C:\Pliki\C#\POSK3\obj\Debug\POSK3.exe
+C:\Pliki\C#\POSK3\obj\Debug\POSK3.pdb
