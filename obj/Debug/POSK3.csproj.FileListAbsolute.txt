@@ -11,3 +11,16 @@ C:\Pliki\C#\POSK3\obj\Debug\POSK3.csproj.GenerateResource.cache
 C:\Pliki\C#\POSK3\obj\Debug\POSK3.csproj.CoreCompileInputs.cache
 C:\Pliki\C#\POSK3\obj\Debug\POSK3.exe
 C:\Pliki\C#\POSK3\obj\Debug\POSK3.pdb
+C:\Users\kubow\Desktop\POSK3-master\bin\Debug\POSK3.exe.config
+C:\Users\kubow\Desktop\POSK3-master\bin\Debug\POSK3.exe
+C:\Users\kubow\Desktop\POSK3-master\bin\Debug\POSK3.pdb
+C:\Users\kubow\Desktop\POSK3-master\obj\Debug\POSK3.csproj.AssemblyReference.cache
+C:\Users\kubow\Desktop\POSK3-master\obj\Debug\POSK3.Ekrany.CzyZywyUzytkownikForm.resources
+C:\Users\kubow\Desktop\POSK3-master\obj\Debug\POSK3.Ekrany.LiniaProdukcyjnaForm.resources
+C:\Users\kubow\Desktop\POSK3-master\obj\Debug\POSK3.Ekrany.LogowanieForm.resources
+C:\Users\kubow\Desktop\POSK3-master\obj\Debug\POSK3.Ekrany.PorazkaForm.resources
+C:\Users\kubow\Desktop\POSK3-master\obj\Debug\POSK3.Properties.Resources.resources
+C:\Users\kubow\Desktop\POSK3-master\obj\Debug\POSK3.csproj.GenerateResource.cache
+C:\Users\kubow\Desktop\POSK3-master\obj\Debug\POSK3.csproj.CoreCompileInputs.cache
+C:\Users\kubow\Desktop\POSK3-master\obj\Debug\POSK3.exe
+C:\Users\kubow\Desktop\POSK3-master\obj\Debug\POSK3.pdb

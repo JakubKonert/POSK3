@@ -72,7 +72,7 @@ namespace POSK3.Ekrany
             // TempProcInfoLabel
             // 
             this.TempProcInfoLabel.AutoSize = true;
-            this.TempProcInfoLabel.Location = new System.Drawing.Point(465, 58);
+            this.TempProcInfoLabel.Location = new System.Drawing.Point(402, 64);
             this.TempProcInfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TempProcInfoLabel.Name = "TempProcInfoLabel";
             this.TempProcInfoLabel.Size = new System.Drawing.Size(64, 25);
@@ -92,7 +92,7 @@ namespace POSK3.Ekrany
             // WykProcInfoLabel
             // 
             this.WykProcInfoLabel.AutoSize = true;
-            this.WykProcInfoLabel.Location = new System.Drawing.Point(465, 238);
+            this.WykProcInfoLabel.Location = new System.Drawing.Point(402, 231);
             this.WykProcInfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.WykProcInfoLabel.Name = "WykProcInfoLabel";
             this.WykProcInfoLabel.Size = new System.Drawing.Size(64, 25);
@@ -112,7 +112,7 @@ namespace POSK3.Ekrany
             // PredWentInfoLabel
             // 
             this.PredWentInfoLabel.AutoSize = true;
-            this.PredWentInfoLabel.Location = new System.Drawing.Point(465, 428);
+            this.PredWentInfoLabel.Location = new System.Drawing.Point(402, 432);
             this.PredWentInfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PredWentInfoLabel.Name = "PredWentInfoLabel";
             this.PredWentInfoLabel.Size = new System.Drawing.Size(64, 25);
@@ -210,6 +210,7 @@ namespace POSK3.Ekrany
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "LiniaProdukcyjnaForm";
             this.Text = "LiniaProdukcyjnaForm";
+            this.Load += new System.EventHandler(this.LiniaProdukcyjnaForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

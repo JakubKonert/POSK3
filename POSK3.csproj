@@ -70,6 +70,7 @@
     <Compile Include="Ekrany\PorazkaForm.Designer.cs">
       <DependentUpon>PorazkaForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Klasy\Logika.cs" />
     <Compile Include="Klasy\Logowanie.cs" />
     <Compile Include="Klasy\Uwaga.cs" />
     <Compile Include="Program.cs" />

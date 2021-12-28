@@ -15,7 +15,7 @@ namespace POSK3.Ekrany
         {
             if (Logowanie.czyZalogowano(LoginTextBox.Text, HasłoTextBox.Text))
             {
-                this.Hide();
+                this.Visible = false;
                 new LiniaProdukcyjnaForm(this).ShowDialog();        
             }
             else { MessageBox.Show("Wprowadzono błędne dane"); }

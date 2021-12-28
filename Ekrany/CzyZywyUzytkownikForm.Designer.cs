@@ -38,9 +38,10 @@ namespace POSK3.Ekrany
             // 
             // AktywnyButton
             // 
-            this.AktywnyButton.Location = new System.Drawing.Point(330, 354);
+            this.AktywnyButton.Location = new System.Drawing.Point(322, 312);
+            this.AktywnyButton.Margin = new System.Windows.Forms.Padding(4);
             this.AktywnyButton.Name = "AktywnyButton";
-            this.AktywnyButton.Size = new System.Drawing.Size(75, 23);
+            this.AktywnyButton.Size = new System.Drawing.Size(216, 104);
             this.AktywnyButton.TabIndex = 0;
             this.AktywnyButton.Text = "Jestem!";
             this.AktywnyButton.UseVisualStyleBackColor = true;
@@ -49,20 +50,22 @@ namespace POSK3.Ekrany
             // InfoLabel
             // 
             this.InfoLabel.AutoSize = true;
-            this.InfoLabel.Location = new System.Drawing.Point(242, 71);
+            this.InfoLabel.Location = new System.Drawing.Point(176, 64);
+            this.InfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.InfoLabel.Name = "InfoLabel";
-            this.InfoLabel.Size = new System.Drawing.Size(368, 17);
+            this.InfoLabel.Size = new System.Drawing.Size(512, 25);
             this.InfoLabel.TabIndex = 1;
             this.InfoLabel.Text = "Wciśnij przycisk aby nie nastąpiło wylogowanie z systemu";
             // 
             // PozostalyCzasLabel
             // 
             this.PozostalyCzasLabel.AutoSize = true;
-            this.PozostalyCzasLabel.Location = new System.Drawing.Point(166, 217);
+            this.PozostalyCzasLabel.Location = new System.Drawing.Point(67, 162);
+            this.PozostalyCzasLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PozostalyCzasLabel.Name = "PozostalyCzasLabel";
-            this.PozostalyCzasLabel.Size = new System.Drawing.Size(46, 17);
+            this.PozostalyCzasLabel.Size = new System.Drawing.Size(17, 25);
             this.PozostalyCzasLabel.TabIndex = 2;
-            this.PozostalyCzasLabel.Text = "label2";
+            this.PozostalyCzasLabel.Text = " ";
             // 
             // ZywyUzytkownikTimer
             // 
@@ -72,14 +75,17 @@ namespace POSK3.Ekrany
             // 
             // CzyZywyUzytkownikForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(879, 464);
             this.Controls.Add(this.PozostalyCzasLabel);
             this.Controls.Add(this.InfoLabel);
             this.Controls.Add(this.AktywnyButton);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CzyZywyUzytkownikForm";
             this.Text = "CzyZywyUzytkownikForm";
+            this.Load += new System.EventHandler(this.CzyZywyUzytkownikForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

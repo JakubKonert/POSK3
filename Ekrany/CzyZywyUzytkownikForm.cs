@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POSK3.Klasy;
+using System;
 using System.Windows.Forms;
 
 namespace POSK3.Ekrany
@@ -12,11 +13,14 @@ namespace POSK3.Ekrany
         {
             this.OknoRodzic = OknoRodzic;
             this.OknoGlowne = OknoGlowne;
+
             InitializeComponent();
         }
 
         private void AktywnyButton_Click(object sender, EventArgs e)
         {
+            Logika.czAktywnyStan = false;
+            ZywyUzytkownikTimer.Enabled = false;
             this.Close();
         }
 
@@ -27,9 +31,14 @@ namespace POSK3.Ekrany
             if (CzasLicznika >= 15)
             {
                 OknoGlowne.Close();
-                OknoRodzic.Show();
+                OknoRodzic.Visible = true;
                 this.Close();
             }
+        }
+
+        private void CzyZywyUzytkownikForm_Load(object sender, EventArgs e)
+        {
+            ZywyUzytkownikTimer.Enabled = true;
         }
     }
 }

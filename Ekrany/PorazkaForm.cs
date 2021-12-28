@@ -24,7 +24,7 @@ namespace POSK3.Ekrany
             if (CzasWylogowanie >= 10)
             {
 
-                OknoRodzic.Show();
+                OknoRodzic.Visible = true;
                 this.Close();
             }
         }

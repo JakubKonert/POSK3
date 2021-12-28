@@ -39,52 +39,59 @@ namespace POSK3.Ekrany
             // 
             // LoginTextBox
             // 
-            this.LoginTextBox.Location = new System.Drawing.Point(322, 126);
+            this.LoginTextBox.Location = new System.Drawing.Point(483, 197);
+            this.LoginTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LoginTextBox.Name = "LoginTextBox";
-            this.LoginTextBox.Size = new System.Drawing.Size(100, 22);
+            this.LoginTextBox.Size = new System.Drawing.Size(148, 30);
             this.LoginTextBox.TabIndex = 0;
             this.LoginTextBox.Text = "Login";
             // 
             // HasłoTextBox
             // 
-            this.HasłoTextBox.Location = new System.Drawing.Point(322, 215);
+            this.HasłoTextBox.Location = new System.Drawing.Point(483, 336);
+            this.HasłoTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.HasłoTextBox.Name = "HasłoTextBox";
-            this.HasłoTextBox.Size = new System.Drawing.Size(100, 22);
+            this.HasłoTextBox.Size = new System.Drawing.Size(148, 30);
             this.HasłoTextBox.TabIndex = 1;
             this.HasłoTextBox.Text = "Hasło";
+            this.HasłoTextBox.UseSystemPasswordChar = true;
             // 
             // LoginLabel
             // 
             this.LoginLabel.AutoSize = true;
-            this.LoginLabel.Location = new System.Drawing.Point(216, 131);
+            this.LoginLabel.Location = new System.Drawing.Point(324, 202);
+            this.LoginLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LoginLabel.Name = "LoginLabel";
-            this.LoginLabel.Size = new System.Drawing.Size(43, 17);
+            this.LoginLabel.Size = new System.Drawing.Size(60, 25);
             this.LoginLabel.TabIndex = 2;
             this.LoginLabel.Text = "Login";
             // 
             // HasloLabel
             // 
             this.HasloLabel.AutoSize = true;
-            this.HasloLabel.Location = new System.Drawing.Point(216, 220);
+            this.HasloLabel.Location = new System.Drawing.Point(324, 341);
+            this.HasloLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.HasloLabel.Name = "HasloLabel";
-            this.HasloLabel.Size = new System.Drawing.Size(44, 17);
+            this.HasloLabel.Size = new System.Drawing.Size(62, 25);
             this.HasloLabel.TabIndex = 3;
             this.HasloLabel.Text = "Hasło";
             // 
             // DaneLabel
             // 
             this.DaneLabel.AutoSize = true;
-            this.DaneLabel.Location = new System.Drawing.Point(216, 27);
+            this.DaneLabel.Location = new System.Drawing.Point(324, 42);
+            this.DaneLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DaneLabel.Name = "DaneLabel";
-            this.DaneLabel.Size = new System.Drawing.Size(295, 17);
+            this.DaneLabel.Size = new System.Drawing.Size(411, 25);
             this.DaneLabel.TabIndex = 4;
             this.DaneLabel.Text = "Wprowadź poprawne dane aby się zalogować";
             // 
             // ZalogujButtom
             // 
-            this.ZalogujButtom.Location = new System.Drawing.Point(322, 340);
+            this.ZalogujButtom.Location = new System.Drawing.Point(483, 515);
+            this.ZalogujButtom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ZalogujButtom.Name = "ZalogujButtom";
-            this.ZalogujButtom.Size = new System.Drawing.Size(75, 23);
+            this.ZalogujButtom.Size = new System.Drawing.Size(112, 36);
             this.ZalogujButtom.TabIndex = 5;
             this.ZalogujButtom.Text = "Zaloguj";
             this.ZalogujButtom.UseVisualStyleBackColor = true;
@@ -93,9 +100,9 @@ namespace POSK3.Ekrany
             // LogowanieForm
             // 
             this.AcceptButton = this.ZalogujButtom;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 703);
             this.ControlBox = false;
             this.Controls.Add(this.ZalogujButtom);
             this.Controls.Add(this.DaneLabel);
@@ -103,8 +110,10 @@ namespace POSK3.Ekrany
             this.Controls.Add(this.LoginLabel);
             this.Controls.Add(this.HasłoTextBox);
             this.Controls.Add(this.LoginTextBox);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "LogowanieForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LogowanieForm";

@@ -38,9 +38,10 @@ namespace POSK3.Ekrany
             // InfoLabel
             // 
             this.InfoLabel.AutoSize = true;
-            this.InfoLabel.Location = new System.Drawing.Point(33, 53);
+            this.InfoLabel.Location = new System.Drawing.Point(50, 83);
+            this.InfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.InfoLabel.Name = "InfoLabel";
-            this.InfoLabel.Size = new System.Drawing.Size(755, 17);
+            this.InfoLabel.Size = new System.Drawing.Size(1045, 25);
             this.InfoLabel.TabIndex = 0;
             this.InfoLabel.Text = "Twoja niestaraność spowodowała zniszczenie linii produkcyjnej. Następuje wylogowa" +
     "nie z systemu i zwolnienie z pracy.";
@@ -48,11 +49,12 @@ namespace POSK3.Ekrany
             // OdliczanieWylogowaniaLabel
             // 
             this.OdliczanieWylogowaniaLabel.AutoSize = true;
-            this.OdliczanieWylogowaniaLabel.Location = new System.Drawing.Point(251, 105);
+            this.OdliczanieWylogowaniaLabel.Location = new System.Drawing.Point(170, 162);
+            this.OdliczanieWylogowaniaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.OdliczanieWylogowaniaLabel.Name = "OdliczanieWylogowaniaLabel";
-            this.OdliczanieWylogowaniaLabel.Size = new System.Drawing.Size(46, 17);
+            this.OdliczanieWylogowaniaLabel.Size = new System.Drawing.Size(17, 25);
             this.OdliczanieWylogowaniaLabel.TabIndex = 1;
-            this.OdliczanieWylogowaniaLabel.Text = "label2";
+            this.OdliczanieWylogowaniaLabel.Text = " ";
             // 
             // LicznikTimer
             // 
@@ -62,11 +64,13 @@ namespace POSK3.Ekrany
             // 
             // PorazkaForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 155);
+            this.ClientSize = new System.Drawing.Size(1200, 242);
             this.Controls.Add(this.OdliczanieWylogowaniaLabel);
             this.Controls.Add(this.InfoLabel);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "PorazkaForm";
             this.Text = "PorazkaForm";
             this.Load += new System.EventHandler(this.PorazkaForm_Load);

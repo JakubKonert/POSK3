@@ -15,7 +15,6 @@ namespace POSK3.Ekrany
             PredWentInfoLabel.Text = "Poprawna Wartość";
             WykProcInfoLabel.Text = "Poprawna Wartość";
             TempProcInfoLabel.Text = "Poprawna Wartość";
-
         }
 
         private int licznik = 0;
@@ -30,7 +29,8 @@ namespace POSK3.Ekrany
 
         private void WyjscieButton_Click(object sender, EventArgs e)
         {
-            OknoRodzic.Show();
+            LosoweZdarzenieTimer.Enabled = false;
+            OknoRodzic.Visible = true;
             this.Close();
         }
 
@@ -88,9 +88,10 @@ namespace POSK3.Ekrany
                         break;
                 }
             }
-            if ((licznik >= 30) && (!przegrana) )
+            if ((licznik >= 30) && (!przegrana) && (!Logika.czAktywnyStan))
             {
-                new CzyZywyUzytkownikForm(OknoRodzic, this).Show();
+                Logika.czAktywnyStan = true;
+                new CzyZywyUzytkownikForm(OknoRodzic, this).ShowDialog();
                 licznik = 0;
             }
         }
@@ -180,9 +181,14 @@ namespace POSK3.Ekrany
                     JakDlugoTempTimer.Enabled = false;
                     przegrana = true;
 
-                    new PorazkaForm(OknoRodzic, this).Show();
+                    new PorazkaForm(OknoRodzic, this).ShowDialog();
                 }
             }
+        }
+
+        private void LiniaProdukcyjnaForm_Load(object sender, EventArgs e)
+        {
+            LosoweZdarzenieTimer.Enabled = true;
         }
     }
 }
